@@ -173,6 +173,14 @@ nav {
     gap: 64px;
 }
 
+#hero h1 {
+  color: #FFF;
+}
+
+#hero p {
+  color: #CCC;
+}
+
 
 
 
