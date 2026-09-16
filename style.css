@@ -33,38 +33,44 @@ a:hover {
 /* ESTILOS DE TEXTO */
   h1 {
     font-family: "Funnel Display", sans-serif;
-    font-size: 64px;
+    font-size: 128px;
     font-weight: 700;
+    line-height: 0.8;
   }
 
   h2 {
     font-family: "Funnel Display", sans-serif;
     font-size: 32px;
     font-weight: 700;
+      line-height: 0.8;
   }
 
   h3 {
     font-family: "Funnel Display", sans-serif;
     font-size: 24px;
     font-weight: 700;
+      line-height: 0.8;
   }
 
   h4 {
     font-family: "Funnel Display", sans-serif;
     font-size: 18px;
     font-weight: 700;
+      line-height: 0.8;
   }
 
   h5 {
     font-family: "Funnel Display", sans-serif;
     font-size: 14px;
     font-weight: 700;
+      line-height: 0.8;
   }
 
   h6 {
     font-family: "Funnel Display", sans-serif;
     font-size: 12px;
     font-weight: 700;
+      line-height: 0.8;
   }
 
   p {
