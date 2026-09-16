@@ -19,10 +19,12 @@
 /* LINKS */
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #FFFFFF;
 }
 
 
@@ -81,6 +83,9 @@ nav {
   padding: 50px 100px;
      width: 100%;
     color: #FFFFFF;
+        display: flex;
+      justify-content: space-between; /* Empurra o logo pra esquerda e os links pra direita */
+      align-items: center; /* Alinha os elementos verticalmente ao centro */
 }
 
 @media (max-width: 768px) {
