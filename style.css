@@ -214,8 +214,8 @@ nav {
   max-width: 1234px;
   display: flex;
   flex-direction: row; /* Garante imagem na esquerda e texto na direita */
-  align-items: center; 
-  gap: 66px; /* Espaço fixo de 66px entre eles */
+ align-items: flex-start;
+  gap: 64px; /* Espaço fixo de 66px entre eles */
 }
 
 .about-image {
@@ -244,7 +244,7 @@ nav {
 .about-text-container p {
   font-family: "Funnel Sans", sans-serif;
   font-size: 18px;
-  color: #a1a1aa;
+  color: #FFF;
   line-height: 1;
 }
 
