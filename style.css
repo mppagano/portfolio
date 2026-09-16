@@ -77,6 +77,18 @@ a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* NAV */
 nav {
     background-color: #000000;
@@ -137,19 +149,19 @@ nav {
 
 /* HERO */
 #hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    text-align: left;
+    /* align-items: center; 
+    justify-content: center; */
     width: 100%;
-  min-height: calc(100vh - 132px);
-  padding: 100px 100px;
-  background-color: #111111;
-  color: #ffffff;
-  text-align: center;
+    min-height: calc(100vh - 132px);
+    padding: 100px 100px;
+    background-color: #111111;
+    color: #ffffff;
 }
 
 .hero-content {
-  max-width: 1234px;
+      max-width: 1234px;
 }
 
 
