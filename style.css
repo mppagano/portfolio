@@ -91,13 +91,18 @@ nav {
     .nav-links {
   display: flex;
         font-size: 18px;
+        font-family: "Funnel Sans", sans-serif;
   gap: 48px; /* Espaço de 48px entre os links */
 }
 
 .nav-links a {
   color: #ffffff;
   text-decoration: none;
-  font-family: "Funnel Sans", sans-serif; /* Usando a fonte configurada */
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .logo {
