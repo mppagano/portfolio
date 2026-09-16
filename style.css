@@ -90,6 +90,7 @@ nav {
 
     .nav-links {
   display: flex;
+        font-size: 18px;
   gap: 48px; /* Espaço de 48px entre os links */
 }
 
@@ -100,16 +101,23 @@ nav {
 }
 
 @media (max-width: 768px) {
-  nav {
+nav {
     padding: 50px;
-           width: 100%;
-       color: #FFFFFF;
+    width: 100%;
+    color: #FFFFFF;
     background-color: #000000;
-  }
+}
 
 .nav-links {
-  display: flex;
-  gap: 24px; /* Espaço de 48px entre os links */
+    display: flex;
+    font-size: 18px;
+    gap: 24px; /* Espaço de 48px entre os links */
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Funnel Sans", sans-serif; /* Usando a fonte configurada */
 }
     
 }
