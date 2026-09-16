@@ -142,14 +142,13 @@ nav {
 
 
 
-/* HERO */
+/*************************************** HERO ***************************************/
 #hero {
     align-items: center; 
     justify-content: center;
     width: 100%;
     padding: 240px 120px;
     background-color: #000;
-    color: #FFF;
     display: flex;
 }
 
@@ -191,6 +190,65 @@ nav {
         font-size: 18px;
     }
 }
+
+
+
+
+
+
+/*************************************** ABOUT ***************************************/
+
+
+
+#about {
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    padding: 120px 120px;
+    background-color: #111;
+    display: flex;
+}
+
+.about-content {
+    max-width: 1234px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+/* #about h2 {
+    color: #FFF;
+} */
+
+/* #about p {
+    color: #CCC;
+    font-size: 32px;
+    font-weight: 300;
+} */
+
+@media (max-width: 768px) {
+    
+    #about {
+        padding: 24px 32px;
+    }
+
+    .about-content {
+        /* gap: 24px; */
+    }
+    
+    #about h2 {
+       /* font-size: 64px;*/
+    }
+
+    #about p {
+     /*   font-size: 18px;*/
+    }
+}
+
+
 
 
 
