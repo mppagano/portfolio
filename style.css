@@ -220,7 +220,7 @@ nav {
 
 .about-image {
   width: 100%;
-  max-width: 320px;
+  max-width: 480px;
   height: auto;
   border-radius: 0px;
   object-fit: cover;
@@ -255,8 +255,15 @@ nav {
     }
 
     .about-content {
-        gap: 24px;
-    }
+    flex-direction: column; /* Coloca a foto em cima e o texto embaixo */
+    align-items: stretch; /* Faz os elementos ocuparem a largura total */
+    gap: 32px; /* Reduz o espaço entre a foto e o texto no celular */
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 100%; /* Permite que a foto expanda na largura do container */
+  }
     
     #about h2 {
        /* font-size: 64px;*/
