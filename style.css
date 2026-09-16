@@ -173,6 +173,25 @@ nav {
     font-weight: 300;
 }
 
+@media (max-width: 768px) {
+    
+    #hero {
+        padding: 128px 32px;
+    }
+
+    .hero-content {
+        gap: 24px;
+    }
+    
+    #hero h1 {
+        font-size: 64px;
+    }
+
+    #hero p {
+        font-size: 18px;
+    }
+}
+
 
 
 
