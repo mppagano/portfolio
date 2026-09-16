@@ -135,6 +135,24 @@ nav {
 
 
 
+/* HERO */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 100%;
+  min-height: calc(100vh - 132px);
+  padding: 100px 100px;
+  background-color: #111;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 1234px;
+}
+
+
 
 
 
