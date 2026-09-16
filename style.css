@@ -144,15 +144,13 @@ nav {
 
 /* HERO */
 #hero {
-    display: flex;
-    text-align: left;
-    /* align-items: center; 
-    justify-content: center; */
+align-items: center; 
+    justify-content: center;
     width: 100%;
     min-height: calc(100vh - 132px);
     padding: 100px 100px;
-    background-color: #111111;
-    color: #ffffff;
+    background-color: #000;
+    color: #FFF;
 }
 
 .hero-content {
@@ -168,6 +166,7 @@ nav {
 
 #hero p {
   color: #CCC;
+    font-size: 32px;
 }
 
 
