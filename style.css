@@ -88,6 +88,12 @@ nav {
       align-items: center; /* Alinha os elementos verticalmente ao centro */
 }
 
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Funnel Sans", sans-serif; /* Usando a fonte configurada */
+}
+
 @media (max-width: 768px) {
   nav {
     padding: 50px;
