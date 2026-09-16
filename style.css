@@ -98,7 +98,7 @@ a:hover {
 /* NAV */
 nav {
     background-color: #000000;
-  padding: 50px 100px;
+  padding: 32px 64px;
      width: 100%;
     color: #FFFFFF;
         display: flex;
@@ -128,11 +128,11 @@ nav {
 
 @media (max-width: 768px) {
 nav {
-    padding: 32px;
+    padding: 24px;
 }
 
 .nav-links {
-    gap: 24px;
+    gap: 16px;
 }
     
 }
