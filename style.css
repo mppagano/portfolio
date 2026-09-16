@@ -147,7 +147,6 @@ nav {
     align-items: center; 
     justify-content: center;
     width: 100%;
-    min-height: calc(100vh - 132px);
     padding: 100px 240px;
     background-color: #000;
     color: #FFF;
