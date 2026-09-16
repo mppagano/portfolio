@@ -77,14 +77,17 @@ a:hover {
 
 /* NAV */
 nav {
+    background-color: #000000;
   padding: 50px 100px;
      width: 100%;
+    color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
   nav {
     padding: 50px;
            width: 100%;
+       color: #FFFFFF;
         background-color: #000000;
   }
 }
