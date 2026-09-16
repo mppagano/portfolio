@@ -144,28 +144,32 @@ nav {
 
 /* HERO */
 #hero {
-align-items: center; 
+    align-items: center; 
     justify-content: center;
     width: 100%;
     min-height: calc(100vh - 132px);
     padding: 100px 240px;
     background-color: #000;
     color: #FFF;
+    display: flex;
 }
 
 .hero-content {
-      max-width: 1234px;
+    max-width: 1234px;
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
     gap: 64px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
 }
 
 #hero h1 {
-  color: #FFF;
+    color: #FFF;
 }
 
 #hero p {
-  color: #CCC;
+    color: #CCC;
     font-size: 32px;
     font-weight: 300;
 }
