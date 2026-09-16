@@ -210,17 +210,17 @@ nav {
 }
 
 .about-content {
-  width: 100%;
-  max-width: 1234px;
-  display: flex;
-  flex-direction: row; /* Garante imagem na esquerda e texto na direita */
- align-items: flex-start;
-  gap: 64px; /* Espaço fixo de 66px entre eles */
+    width: 100%;
+    max-width: 1234px;
+    display: flex;
+    flex-direction: row; /* Garante imagem na esquerda e texto na direita */
+    align-items: flex-start;
+    gap: 64px; /* Espaço fixo de 66px entre eles */
 }
 
 .about-image {
   width: 100%;
-  max-width: 128px; /* Define o limite da largura da foto */
+  max-width: 320px;
   height: auto;
   border-radius: 0px;
   object-fit: cover;
