@@ -184,7 +184,7 @@ flex-direction: column;
 #experience-title {
 max-width: 1234px;
 width: 100%;
-padding-bottom: 32px;
+padding: 32px 0px;
 }
 
 #experience h2 {
