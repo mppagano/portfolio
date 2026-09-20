@@ -309,7 +309,8 @@ line-height: 1;
 display: flex;
 width: 100%;
 max-width: 1234px;
-border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+   padding: 120px 240px;
 }
 
 /* Coluna da Esquerda (Azul com 200px fixos) */
