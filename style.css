@@ -240,6 +240,16 @@ line-height: 1;
 line-height: 120%;
 }
 
+.social-link {
+fill: #ffffff;
+opacity: 0.66;
+transition: opacity 250ms ease;
+}
+
+.social-link:hover {
+opacity: 1;
+}
+
 @media (max-width: 768px) {
 
 #about {
@@ -265,20 +275,18 @@ max-width: 240px;
 }
 
 
-.social-link {
-    fill: #ffffff;
-    opacity: 0.66;
-    transition: opacity 250ms ease;
+
+
+
+/*************************************** EXPERIENCE ***************************************/
+#experience {
+align-items: center; 
+justify-content: center;
+width: 100%;
+padding: 120px 120px;
+background-color: #012345;
+display: flex;
 }
-
-.social-link:hover {
-    opacity: 1;
-}
-
-
-
-
-
 
 
 
