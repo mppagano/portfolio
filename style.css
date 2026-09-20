@@ -318,24 +318,20 @@ background-color: #345678;
 .container-duas-colunas {
     display: flex;
     width: 100%;
-    min-height: 300px; /* Altura de exemplo, ajuste conforme necessário */
+    max-width: 1234px;
 }
 
 /* Coluna da Esquerda (Azul com 200px fixos) */
 .coluna-esquerda {
-    width: 200px;
-    flex-shrink: 0; /* Impede que a coluna encolha */
-    background-color: blue;
+    width: 180px;
+    flex-shrink: 0;
     color: #ffffff;
-    padding: 20px;
 }
 
 /* Coluna da Direita (Vermelha preenchendo o restante) */
 .coluna-direita {
-    flex-grow: 1; /* Faz a coluna expandir e ocupar todo o espaço restante */
-    background-color: red;
+    flex-grow: 1;
     color: #ffffff;
-    padding: 20px;
 }
 
 
