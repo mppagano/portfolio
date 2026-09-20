@@ -78,14 +78,14 @@ nav {
 padding: 32px 64px;
 color: #FFFFFF;
 display: flex;
-justify-content: space-between; /* Empurra o logo pra esquerda e os links pra direita */
-align-items: center; /* Alinha os elementos verticalmente ao centro */
+justify-content: space-between;
+align-items: center;
 background-color: rgba(0, 0, 0, 0.66);
 position: fixed;
-top: 0;       
-left: 0;       
-width: 100%;   
-z-index: 1000;  
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
 box-sizing: border-box;
 backdrop-filter: blur(100px);
 -webkit-backdrop-filter: blur(100px);
@@ -97,7 +97,7 @@ display: flex;
 font-size: 16px;
 font-family: "Funnel Sans", sans-serif;
 font-weight: 300;
-gap: 48px; /* Espaço de 48px entre os links */
+gap: 48px;
 }
 
 .nav-links a {
@@ -162,108 +162,13 @@ font-weight: 100;
 }
 
 @media (max-width: 768px) {
-    #hero {
-    padding: 128px 32px;
-    }
+    #hero { padding: 128px 32px; }
 
-    .hero-content {
-    gap: 24px;
-    }
+    .hero-content { gap: 24px; }
     
-    #hero h1 {
-    font-size: 64px;
-    }
-    
-    #hero p {
-    font-size: 18px;
-    }
+    #hero h1 { font-size: 64px; }
 }
 
-
-
-
-
-
-
-/* #about {
-align-items: center; 
-justify-content: center;
-width: 100%;
-padding: 120px 120px;
-background-color: #000;
-display: flex;
-}
-
-.about-content {
-width: 100%;
-max-width: 1234px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-gap: 64px;
-}
-
-.about-image {
-width: 50%;
-height: auto;
-border-radius: 0px;
-object-fit: cover;
-}
-
-.about-text-container {
-width: 50%;
-flex: 1;
-display: flex;
-flex-direction: column;
-gap: 24px;
-}
-
-#about h2 {
-font-family: "Funnel Display", sans-serif;
-font-size: 32px;
-font-weight: 700;
-color: #ffffff;
-line-height: 1;
-}
-
-.about-text-container p {
-font-family: "Funnel Sans", sans-serif;
-font-size: 18px;
-color: #AAA;
-line-height: 1;
-line-height: 120%;
-}
-
-.social-link {
-fill: #ffffff;
-opacity: 0.66;
-transition: opacity 250ms ease;
-}
-
-.social-link:hover {
-opacity: 1;
-}
-
-@media (max-width: 768px) {
-
-#about {
-padding: 32px 32px;
-}
-
-.about-content {
-flex-direction: column;
-align-items: stretch;
-gap: 32px;
-}
-.about-image {
-width: 100%;
-max-width: 100%;
-
-.about-text-container {
-width: 100%;
-}
-
-}  */
 
 
 
@@ -384,6 +289,15 @@ color: #fff;
 color: #aaa;
 }
 
+.social-link {
+fill: #ffffff;
+opacity: 0.66;
+transition: opacity 250ms ease;
+}
+
+.social-link:hover {
+opacity: 1;
+}
 
     @media (max-width: 768px) {
         #sobre {
