@@ -133,6 +133,11 @@ text-decoration: underline;
 
 
 
+
+
+
+
+
 /*************************************** HERO ***************************************/
 #hero {
 align-items: center; 
@@ -158,7 +163,7 @@ color: #FFF;
 }
 
 #hero p {
-color: #CCC;
+color: #AAA;
 font-size: 32px;
 font-weight: 300;
 }
