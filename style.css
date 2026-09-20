@@ -357,9 +357,7 @@ display: flex;
 
 .tabela-esquerda,
 .tabela-direita {
-    flex: 1; 
-    padding: 24px;
-    color: #ffffff;
+    flex: 1;
 }
 
 .tabela-esquerda {
