@@ -357,11 +357,15 @@ width: 100%;
 
 .tabela-esquerda {
 flex: 1;
+width: 100%;
 }
 
 .tabela-direita {
 flex: 1;
-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+width: 100%;
 }
 
 .sobre-picture {
@@ -377,10 +381,6 @@ flex-direction: column;
 gap: 24px;
 }
 
-.tabela-esquerda,
-.tabela-direita {
-width: 100%;          
-}
 }
 
 
