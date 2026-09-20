@@ -352,15 +352,13 @@ text-align: left;
 
 .contact-links a {
 font-family: "Funnel Sans", sans-serif;
-font-size: 32px;
+font-size: 24px;
 color: #fff;
 font-weight: 700;
 text-decoration: none;
 }
 
 .contact-links a:hover {
-font-family: "Funnel Sans", sans-serif;
-font-size: 32px;
 color: #fff;
 font-weight: 700;
 text-decoration: underline;
