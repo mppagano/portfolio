@@ -316,6 +316,12 @@ opacity: 1;
 
 
 /* W O R K */
+#work {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: 1fr;
