@@ -315,6 +315,48 @@ opacity: 1;
 
 
 
+/* W O R K */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  width: 100%;
+}
+
+/* Breakpoint Desktop */
+@media (min-width: 900px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Bloco dos cards */
+.portfolio-item {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #contact {
 align-items: center;
 justify-content: center;
@@ -377,24 +419,16 @@ text-decoration: underline;
 
 
 
+
+/*  F O O T E R */
 footer {
-width: 100%;
-overflow: hidden;
-}
+    width: 100%; overflow: hidden;
+    }
 
 .footer-hero-text {
-font-family: "Funnel Display", sans-serif;
-font-weight: 800;
-line-height: 0.7;
-width: 106vw;
-margin-left: -3vw;
-font-size: 20vw;
-text-align: center;
-letter-spacing: -0.02em; /* Ajuste fino do espaçamento das letras */
-white-space: nowrap; /* Impede a palavra de quebrar em duas linhas */
-user-select: none;
-color: #111;
-}
+    font-family: "Funnel Display", sans-serif; font-weight: 800; line-height: 0.7; font-size: 20vw; text-align: center; color: #111;
+    width: 106vw; margin-left: -3vw; letter-spacing: -0.02em; white-space: nowrap; user-select: none;
+    }
 
 
 
