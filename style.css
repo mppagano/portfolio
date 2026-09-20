@@ -211,6 +211,8 @@ color: #555;
 text-align: left !important;
 font-family: "Funnel Sans", sans-serif;
 font-size: 14px;
+display: grid;
+align-content: center;
         background-color: #222;
 }
 
