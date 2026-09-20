@@ -374,8 +374,12 @@ border-radius: 0px;
 object-fit: cover;
 }
 
-sobre p {
-color: #AAA;
+.sobre-title {
+color: #fff;
+}
+
+.sobre-text {
+color: #aaa;
 }
 
 
