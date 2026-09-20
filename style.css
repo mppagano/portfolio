@@ -129,8 +129,6 @@ text-decoration: underline;
 
 
 
-
-/*************************************** HERO ***************************************/
 #hero {
 align-items: center; 
 justify-content: center;
@@ -183,8 +181,8 @@ font-weight: 100;
 
 
 
-/*************************************** ABOUT ***************************************/
-#about {
+
+/* #about {
 align-items: center; 
 justify-content: center;
 width: 100%;
@@ -204,7 +202,6 @@ gap: 64px;
 
 .about-image {
 width: 50%;
-/* max-width: 480px; */
 height: auto;
 border-radius: 0px;
 object-fit: cover;
@@ -229,7 +226,7 @@ line-height: 1;
 .about-text-container p {
 font-family: "Funnel Sans", sans-serif;
 font-size: 18px;
-color: #AAAAAA;
+color: #AAA;
 line-height: 1;
 line-height: 120%;
 }
@@ -255,7 +252,6 @@ flex-direction: column;
 align-items: stretch;
 gap: 32px;
 }
-
 .about-image {
 width: 100%;
 max-width: 100%;
@@ -264,18 +260,15 @@ max-width: 100%;
 width: 100%;
 }
 
-}
+}  */
 
 
 
 
-
-/*************************************** EXPERIENCE ***************************************/
 #experience {
 align-items: center; 
 justify-content: center;
 width: 100%;
-/*padding: 120px 120px;*/
 display: flex;
 flex-direction: column;
 background-color: #012345;
@@ -344,7 +337,6 @@ color: #AAA;
 
 
 
-/* Container Pai */
 
 #sobre {
     background-color: #222;
@@ -354,22 +346,16 @@ color: #AAA;
     display: flex;
     width: 100%;
     max-width: 1234px;
-    gap: 64px; /* Espaçamento exato de 64px entre as colunas */
+    gap: 64px; 
 }
 
-/* Estilo das Colunas para Desktop */
 .tabela-esquerda,
 .tabela-direita {
-    /* 
-       flex: 1 faz com que ambas dividam o espaço igualmente (50% cada),
-       já descontando automaticamente os 64px do gap sem estourar a tela.
-    */
     flex: 1; 
     padding: 24px;
     color: #ffffff;
 }
 
-/* Cores de Fundo */
 .tabela-esquerda {
     background-color: blue;
 }
@@ -378,16 +364,15 @@ color: #AAA;
     background-color: red;
 }
 
-/* Breakpoint para Celular (Mobile) */
 @media (max-width: 768px) {
     .tabela-container {
-        flex-direction: column; /* Empilha as colunas (esquerda em cima, direita embaixo) */
-        gap: 24px;              /* Opcional: reduz o espaçamento vertical no celular */
+        flex-direction: column; 
+        gap: 24px;            
     }
 
     .tabela-esquerda,
     .tabela-direita {
-        width: 100%;           /* Ocupa 100% da largura na tela do celular */
+        width: 100%;          
     }
 }
 
