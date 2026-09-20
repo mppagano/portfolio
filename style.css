@@ -275,7 +275,7 @@ max-width: 240px;
 
 
 
-
+/*
 .icon-link {
     display: inline-flex;
     align-items: center;
@@ -283,21 +283,22 @@ max-width: 240px;
     transition: all 0.3s ease;
 }
 
-/* Cor BRANCA para o SVG e efeito no hover */
 .svg-icon {
-    stroke: #ffffff; /* Garante que as linhas do ícone fiquem brancas */
+    stroke: #ffffff;
     transition: transform 0.3s ease, stroke 0.3s ease;
 }
 
-/* Efeito ao passar o mouse */
 .icon-link:hover {
-    background-color: var(--accent-color); /* Muda a cor de fundo ao passar o mouse */
-    transform: translateY(-3px);            /* Sobe levemente */
+    background-color: var(--accent-color); 
+    transform: translateY(-3px);         
 }
 
 .icon-link:hover .svg-icon {
-    stroke: #ffffff;                        /* Mantém o ícone branco */
-}
+    stroke: #ffffff;                     
+} 
+
+*/
+
 
 
 
