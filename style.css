@@ -339,8 +339,13 @@ color: #AAA;
 
 
 #sobre {
-    align-items: center;
-    background-color: #222;
+align-items: center;
+background-color: #222;
+justify-content: center;
+width: 100%;
+padding: 0px 0px;
+background-color: #333;
+display: flex;
 }
     
 .tabela-container {
