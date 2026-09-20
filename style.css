@@ -285,17 +285,18 @@ width: 100%;
 /*padding: 120px 120px;*/
 display: flex;
 flex-direction: column;
+    background-color: #012345;
 }
 
 #experience-title {
 max-width: 1234px;
 width: 100%;
 padding-bottom: 32px;
+background-color: #123456;
 }
 
 #experience h2 {
 font-family: "Funnel Display", sans-serif;
-font-size: 48px;
 font-weight: 700;
 color: #ffffff;
 line-height: 1;
