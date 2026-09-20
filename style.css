@@ -317,7 +317,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.33);
 width: 180px;
 flex-shrink: 0;
 color: #555;
-    align-items: center;
+    vertical-align: middle;
 font-family: "Funnel Sans", sans-serif;
 font-size: 14px;
 line-height: 120%;
