@@ -356,13 +356,12 @@ width: 100%;
 }
 
 .tabela-esquerda {
-background-color: blue;
 flex: 1;
 }
 
 .tabela-direita {
-background-color: red;
 flex: 1;
+gap: 24px;
 }
 
 .sobre-picture {
