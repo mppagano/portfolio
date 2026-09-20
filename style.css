@@ -316,7 +316,7 @@ max-width: 1234px;
 .coluna-esquerda {
 width: 180px;
 flex-shrink: 0;
-color: #AAAAAA;
+color: #555;
     align-items: center;
 font-family: "Funnel Sans", sans-serif;
 font-size: 14px;
@@ -326,13 +326,13 @@ line-height: 120%;
 /* Coluna da Direita (Vermelha preenchendo o restante) */
 .coluna-direita {
 flex-grow: 1;
-color: #ffffff;
+color: #FFF;
 }
 
 .experience-subtitle {
 font-family: "Funnel Sans", sans-serif;
 font-size: 16px;
-color: #F00;
+color: #AAA;
 }
 
 
