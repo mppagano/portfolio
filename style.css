@@ -14,7 +14,11 @@ font-style: normal;
 background-color: #000;
 }
 
-
+hr {
+border: none;                             /* Remove a borda padrão do navegador */
+border-top: 1px solid rgba(0, 255, 0, 0.99);
+margin: 20px 0;                          /* Espaçamento em cima e embaixo */
+}
 
 
 
