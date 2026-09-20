@@ -196,7 +196,7 @@ color: #0f0;
 line-height: 1;
 }
 
-.container-duas-colunas {
+.experience-line {
 display: flex;
 width: 100%;
 max-width: 1234px;
@@ -204,7 +204,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.33);
 padding: 32px 0px;
 }
 
-.coluna-esquerda {
+.experience-period {
 width: 180px;
 flex-shrink: 0;
 color: #555;
@@ -218,12 +218,12 @@ display: grid;
 align-content: center;
 }
 
-.coluna-direita {
+.experience-enterprise {
 flex-grow: 1;
 color: #FFF;
 }
 
-.experience-subtitle {
+.experience-text {
 font-family: "Funnel Sans", sans-serif;
 font-size: 16px;
 color: #AAA;
