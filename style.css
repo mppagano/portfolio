@@ -211,7 +211,7 @@ gap: 64px;
 
 .about-image {
 width: 100%;
-max-width: 480px;
+/* max-width: 480px; */
 height: auto;
 border-radius: 0px;
 object-fit: cover;
