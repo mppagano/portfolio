@@ -327,3 +327,74 @@ font-family: "Funnel Sans", sans-serif;
 font-size: 16px;
 color: #AAA;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container Pai */
+
+#sobre {
+    background-color: #222;
+}
+    
+.tabela-container {
+    display: flex;
+    width: 100%;
+    max-width: 1234px;
+    gap: 64px; /* Espaçamento exato de 64px entre as colunas */
+}
+
+/* Estilo das Colunas para Desktop */
+.tabela-esquerda,
+.tabela-direita {
+    /* 
+       flex: 1 faz com que ambas dividam o espaço igualmente (50% cada),
+       já descontando automaticamente os 64px do gap sem estourar a tela.
+    */
+    flex: 1; 
+    padding: 24px;
+    color: #ffffff;
+}
+
+/* Cores de Fundo */
+.tabela-esquerda {
+    background-color: blue;
+}
+
+.tabela-direita {
+    background-color: red;
+}
+
+/* Breakpoint para Celular (Mobile) */
+@media (max-width: 768px) {
+    .tabela-container {
+        flex-direction: column; /* Empilha as colunas (esquerda em cima, direita embaixo) */
+        gap: 24px;              /* Opcional: reduz o espaçamento vertical no celular */
+    }
+
+    .tabela-esquerda,
+    .tabela-direita {
+        width: 100%;           /* Ocupa 100% da largura na tela do celular */
+    }
+}
+
+
+
+
+
+
+
+    
