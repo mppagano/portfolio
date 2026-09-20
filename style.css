@@ -218,7 +218,7 @@ object-fit: cover;
 }
 
 .about-text-container {
-    width: 50%;
+width: 50%;
 flex: 1;
 display: flex;
 flex-direction: column;
@@ -266,13 +266,11 @@ gap: 32px;
 .about-image {
 width: 100%;
 max-width: 100%;
+
+.about-text-container {
+width: 100%;
 }
 
-@media (max-width: 1024px) {]
-.about-image {
-max-width: 240px;
-}
-}
 }
 
 
