@@ -382,6 +382,7 @@ text-decoration: underline;
 footer {
   width: 100%;
   overflow: hidden;
+    padding-top: 160px;
 }
 
 .footer-hero-text {
