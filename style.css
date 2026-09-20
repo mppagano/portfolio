@@ -14,15 +14,6 @@
       background-color: #000;
   }
 
-nav {
-    position: fixed;
-    top: 0;       
-  left: 0;       
-  width: 100%;   
-  z-index: 1000;  
-  box-sizing: border-box;
-}
-
 
 
 
@@ -107,13 +98,21 @@ a:hover {
 
 /* NAV */
 nav {
-    background-color: #000000;
   padding: 32px 64px;
      width: 100%;
     color: #FFFFFF;
         display: flex;
       justify-content: space-between; /* Empurra o logo pra esquerda e os links pra direita */
       align-items: center; /* Alinha os elementos verticalmente ao centro */
+    background-color: rgba(0, 0, 0, 0.87);
+       position: fixed;
+    top: 0;       
+  left: 0;       
+  width: 100%;   
+  z-index: 1000;  
+  box-sizing: border-box;
+    backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
     .nav-links {
