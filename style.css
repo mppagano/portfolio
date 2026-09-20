@@ -288,6 +288,19 @@ background-color: #012345;
 display: flex;
 }
 
+#experience-title {
+max-width: 1234px;
+align-items: left; 
+}
+
+#experience h2 {
+font-family: "Funnel Display", sans-serif;
+font-size: 48px;
+font-weight: 700;
+color: #ffffff;
+line-height: 1;
+}
+
 .experience-row {
 width: 100%;
 max-width: 1234px;
