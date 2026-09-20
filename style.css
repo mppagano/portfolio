@@ -320,6 +320,8 @@ opacity: 1;
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 0px 32px;
+    display: flex;
     }
 
 .portfolio-grid {
