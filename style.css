@@ -280,17 +280,14 @@ transition: all 0.3s ease;
 }
 
 .svg-icon {
-    stroke: #ffffff;
     transition: transform 0.3s ease, stroke 0.3s ease;
 }
 
 .icon-link:hover {
-    stroke: #F00; /* Transita a cor da linha para vermelho */
     fill: #F00;   /* Transita o preenchimento para vermelho (se aplicável) */ 
 }
 
 .icon-link:hover .svg-icon {
-    stroke: #F00; /* Transita a cor da linha para vermelho */
     fill: #F00;   /* Transita o preenchimento para vermelho (se aplicável) */                
 } 
 
