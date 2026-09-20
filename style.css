@@ -13,6 +13,8 @@ font-optical-sizing: auto;
 font-style: normal;
 background-color: #000;
                                 overscroll-behavior: none;
+                                height: 100%;
+                                overflow: hidden;
 }
 
 
