@@ -344,17 +344,24 @@ font-size: 16px;
 color: #aaa;
 }
 
+.contact-links {
+max-width: 1234px;
+width: 100%;
+text-align: left;
+}
+
 .contact-links a {
 font-family: "Funnel Sans", sans-serif;
 font-size: 32px;
 color: #aaa;
 font-weight: 700;
+text-decoration: none;
 }
 
 .contact-links a:hover {
 font-family: "Funnel Sans", sans-serif;
 font-size: 32px;
-color: #aaa;
+color: #fff;
 font-weight: 700;
 text-decoration: underline;
 }
