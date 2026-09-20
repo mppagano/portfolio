@@ -344,6 +344,21 @@ font-size: 16px;
 color: #aaa;
 }
 
+.contact a {
+font-family: "Funnel Sans", sans-serif;
+font-size: 32px;
+color: #aaa;
+font-weight: 700;
+}
+
+.contact a:hover {
+font-family: "Funnel Sans", sans-serif;
+font-size: 32px;
+color: #aaa;
+font-weight: 700;
+text-decoration: underline;
+}
+
 
 
 
