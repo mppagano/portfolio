@@ -276,6 +276,29 @@ max-width: 240px;
 
 
 
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+/* Cor BRANCA para o SVG e efeito no hover */
+.svg-icon {
+    stroke: #ffffff; /* Garante que as linhas do ícone fiquem brancas */
+    transition: transform 0.3s ease, stroke 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.icon-link:hover {
+    background-color: var(--accent-color); /* Muda a cor de fundo ao passar o mouse */
+    transform: translateY(-3px);            /* Sobe levemente */
+}
+
+.icon-link:hover .svg-icon {
+    stroke: #ffffff;                        /* Mantém o ícone branco */
+}
+
 
 
 
