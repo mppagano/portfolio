@@ -94,7 +94,7 @@ z-index: 1000;
 box-sizing: border-box;
 backdrop-filter: blur(100px);
 -webkit-backdrop-filter: blur(100px);
-border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .nav-links {
