@@ -374,6 +374,11 @@ border-radius: 0px;
 object-fit: cover;
 }
 
+.sobre p {
+color: #AAA;
+}
+
+
 @media (max-width: 768px) {
 .tabela-container {
 flex-direction: column; 
