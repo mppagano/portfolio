@@ -99,12 +99,11 @@ a:hover {
 /* NAV */
 nav {
   padding: 32px 64px;
-     width: 100%;
     color: #FFFFFF;
         display: flex;
       justify-content: space-between; /* Empurra o logo pra esquerda e os links pra direita */
       align-items: center; /* Alinha os elementos verticalmente ao centro */
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(0, 0, 0, 0.1);
        position: fixed;
     top: 0;       
   left: 0;       
