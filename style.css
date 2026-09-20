@@ -231,8 +231,9 @@ line-height: 1;
 .about-text-container p {
 font-family: "Funnel Sans", sans-serif;
 font-size: 18px;
-color: #CCC;
+color: #fff;
 line-height: 1;
+line-height: 120%;
 }
 
 @media (max-width: 768px) {
