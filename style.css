@@ -17,6 +17,9 @@ background-color: #000;
 
 
 
+
+
+
 /* ESTILOS DE TEXTO */
 h1 {
 font-family: "Funnel Display", sans-serif;
@@ -343,7 +346,6 @@ align-items: center;
 justify-content: center;
 width: 100%;
 padding: 0px 32px;
-background-color: #333;
 display: flex;
 }
 
