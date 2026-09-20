@@ -204,7 +204,7 @@ padding: 32px 0px;
 }
 
 .experience-period {
-width: 180px;
+width: 150px;
 flex-shrink: 0;
 color: #555;
 text-align: left !important;
@@ -306,6 +306,47 @@ opacity: 1;
         }
 
 }
+
+
+
+
+
+
+
+
+
+#contact {
+align-items: center;
+justify-content: center;
+width: 100%;
+display: flex;
+flex-direction: column;
+padding: 64px 32px;
+}
+
+#contact-title {
+max-width: 1234px;
+width: 100%;
+padding: 32px 0px;
+}
+
+
+#contact h2 {
+font-family: "Funnel Display", sans-serif;
+font-weight: 700;
+color: #fff;
+line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
