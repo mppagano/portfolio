@@ -291,7 +291,7 @@ padding: 120px 120px;
 display: flex;
    background-color: #123456;
     flex-direction: column;
-   gap: 320px;
+   gap: 32px;
 }
 
 #experience-title {
