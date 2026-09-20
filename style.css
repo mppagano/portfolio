@@ -268,7 +268,7 @@ max-width: 240px;
 .social-link {
     fill: #ffffff;
     opacity: 0.66;
-    transition: opacity 500ms ease;
+    transition: opacity 250ms ease;
 }
 
 .social-link:hover {
