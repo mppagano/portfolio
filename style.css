@@ -266,7 +266,7 @@ width: 100%;
 
 
 #experience {
-align-items: center; 
+align-items: center;
 justify-content: center;
 width: 100%;
 display: flex;
@@ -339,14 +339,15 @@ color: #AAA;
 
 
 #sobre {
+    align-items: center;
     background-color: #222;
 }
     
 .tabela-container {
     display: flex;
-    width: 100%;
+    gap: 64px;
     max-width: 1234px;
-    gap: 64px; 
+    width: 100%;
 }
 
 .tabela-esquerda,
