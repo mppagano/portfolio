@@ -275,12 +275,8 @@ max-width: 240px;
 
 
 
-/*
 .icon-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
+transition: all 0.3s ease;
 }
 
 .svg-icon {
@@ -289,12 +285,13 @@ max-width: 240px;
 }
 
 .icon-link:hover {
-    background-color: var(--accent-color); 
-    transform: translateY(-3px);         
+    stroke: #F00; /* Transita a cor da linha para vermelho */
+    fill: #F00;   /* Transita o preenchimento para vermelho (se aplicável) */ 
 }
 
 .icon-link:hover .svg-icon {
-    stroke: #ffffff;                     
+    stroke: #F00; /* Transita a cor da linha para vermelho */
+    fill: #F00;   /* Transita o preenchimento para vermelho (se aplicável) */                
 } 
 
 */
