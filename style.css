@@ -391,7 +391,7 @@ line-height: 0.8;
     width: 106vw;
     margin-left: -3vw;
   /* 15.2vw faz com que 10 caracteres preencham aproximadamente 100% da tela */
-  font-size: 16.5vw;
+  font-size: 20vw;
   text-align: center;
   letter-spacing: -0.02em; /* Ajuste fino do espaçamento das letras */
   white-space: nowrap; /* Impede a palavra de quebrar em duas linhas */
