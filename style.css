@@ -164,8 +164,8 @@ color: #FFF;
 
 #hero p {
 color: #AAA;
-font-size: 32px;
-font-weight: 300;
+font-size: 24px;
+font-weight: 100;
 }
 
 @media (max-width: 768px) {
