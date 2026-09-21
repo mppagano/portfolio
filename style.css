@@ -398,20 +398,19 @@ background-color: #0f0;
 
 
 #contact {
-align-items: center;
-justify-content: center;
-width: 100%;
-display: flex;
-flex-direction: column;
-padding: 128px 32px;
-}
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px;
+    }
 
 #contact-title {
 max-width: 1234px;
 width: 100%;
 padding: 32px 0px;
 }
-
 
 #contact h2 {
 font-family: "Funnel Display", sans-serif;
@@ -450,7 +449,7 @@ text-decoration: underline;
 
 #contact {
     padding: 128px 16px;
-}
+    }
 
 
 
@@ -460,7 +459,7 @@ text-decoration: underline;
 
 /*************** IMAGE PORTFOLIO ****************/
 .work-full-image {
-    width: 100%;
+width: 100%;
 }
 
 
@@ -475,6 +474,7 @@ text-decoration: underline;
 /*  F O O T E R */
 footer {
     width: 100%; overflow: hidden;
+    padding-top: 128px;
     }
 
 .footer-hero-text {
