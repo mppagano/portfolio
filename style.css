@@ -360,6 +360,10 @@ padding: 32px 0px;
   color: #999;
 }
 
+.portfolio-content {
+background-color: #0f0;
+}
+
 @media (min-width: 768px) {
   .portfolio-grid {
     grid-template-columns: repeat(3, 1fr);
