@@ -12,7 +12,6 @@ font-family: "Funnel Sans", sans-serif;
 font-optical-sizing: auto;
 font-style: normal;
 background-color: #000;
-margin-top: 96px;
 }
 
 img {
@@ -117,13 +116,13 @@ text-decoration: underline;
 
 @media (max-width: 768px) {
     nav {
-    padding: 16px;
-    }
+        padding: 16px;
+        }
     
     .nav-links {
-    gap: 16px;
+        gap: 16px;
+        }
     }
-}
 
 
 
@@ -154,14 +153,14 @@ align-items: flex-start;
 }
 
 #hero h1 {
-color: #fff;
-}
+    color: #fff;
+    }
 
 #hero p {
-color: #aaa;
-font-size: 24px;
-font-weight: 100;
-}
+    color: #aaa;
+    font-size: 24px;
+    font-weight: 100;
+    }
 
 @media (max-width: 768px) {
     #hero { padding: 128px 16px; }
@@ -228,8 +227,10 @@ color: #aaa;
 }
 
 @media (max-width: 768px) {
-    #experience { padding: 64px 16px; }
-}
+    #experience {
+        padding: 64px 16px;
+        }
+    }
 
 
 
