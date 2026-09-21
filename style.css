@@ -14,8 +14,10 @@ font-style: normal;
 background-color: #000;
 }
 
-
-
+img {
+display: block;
+width: 100%;
+}
 
 
 
