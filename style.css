@@ -347,14 +347,25 @@ width: 100%;
 padding: 32px 0px;
 }
 
-/* Breakpoint Desktop */
-@media (min-width: 900px) {
+.portfolio-title {
+  font-size: 18px
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.portfolio-description {
+  font-size: 12px;
+  margin: 0;
+  color: #999;
+}
+
+@media (min-width: 768px) {
   .portfolio-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* Bloco dos cards */
 .portfolio-item {
   width: 100%;
   aspect-ratio: 4 / 3;
