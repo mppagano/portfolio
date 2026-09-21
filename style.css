@@ -363,13 +363,14 @@ background-color: #0f0;
 }
 
 @media (min-width: 768px) {
-  .portfolio-grid {
+    .portfolio-grid {
     grid-template-columns: repeat(3, 1fr);
-#work {
-    padding: 64px 16px;
     }
-  }
-}
+        
+    #work {
+        padding: 64px 16px;
+        }
+    }
 
 .portfolio-item {
   width: 100%;
