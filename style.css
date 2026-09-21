@@ -17,7 +17,6 @@ margin-top: 96px;
 
 img {
 display: block;
-width: 100%;
 }
 
 
@@ -118,7 +117,7 @@ text-decoration: underline;
 
 @media (max-width: 768px) {
     nav {
-    padding: 32px;
+    padding: 16px;
     }
     
     .nav-links {
@@ -165,7 +164,7 @@ font-weight: 100;
 }
 
 @media (max-width: 768px) {
-    #hero { padding: 128px 32px; }
+    #hero { padding: 128px 16px; }
 
     .hero-content { gap: 24px; }
     
@@ -228,7 +227,9 @@ font-size: 16px;
 color: #aaa;
 }
 
-
+@media (max-width: 768px) {
+    #experience { padding: 64px 16px; }
+}
 
 
 
@@ -300,15 +301,9 @@ opacity: 1;
 }
 
     @media (max-width: 768px) {
-        #about {
-        padding: 0px 32px;
+        #about { padding: 0px 16px; }
+        .about-container { flex-direction: column; }
         }
-
-        .about-container {
-        flex-direction: column;
-        }
-
-}
 
 
 
@@ -370,6 +365,9 @@ background-color: #0f0;
 @media (min-width: 768px) {
   .portfolio-grid {
     grid-template-columns: repeat(3, 1fr);
+#work {
+    padding: 64px 16px;
+    }
   }
 }
 
@@ -446,6 +444,12 @@ text-decoration: none;
 color: #fff;
 font-weight: 700;
 text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+
+#contact {
+    padding: 128px 16px;
 }
 
 
