@@ -7,6 +7,17 @@ padding: 0;
 box-sizing: border-box;
 }
 
+::selection {
+background-color: #0F0; /* Cor do fundo do destaque */
+color: #000;           /* Cor da fonte do texto */
+}
+
+/* Opcional: Suporte para navegadores antigos baseados em Firefox */
+::-moz-selection {
+background-color: #0F0;
+color: #000;
+}
+
 body {
 font-family: "Funnel Sans", sans-serif;
 font-optical-sizing: auto;
