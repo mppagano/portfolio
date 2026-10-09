@@ -87,7 +87,7 @@ font-weight: 300;
 
 /*   N A V   */
 nav {
-padding: 32px 32px;
+padding: 24px;
 color: #fff;
 justify-content: space-between; align-items: center;
 background-color: rgba(0, 0, 0, 0.66); backdrop-filter: blur(100px); -webkit-backdrop-filter: blur(100px);
@@ -150,7 +150,7 @@ max-width: 1234px; display: flex; flex-direction: column; gap: 32px; width: 100%
 
 @media (max-width: 768px) {
     #hero {
-    padding: 128px 16px;
+    padding: 128px 24px;
     }
 
     .hero-content {
@@ -172,7 +172,7 @@ justify-content: center;
 width: 100%;
 display: flex;
 flex-direction: column;
-padding: 64px 32px;
+padding: 64px 24px;
 }
 
 #experience-title {
@@ -243,7 +243,7 @@ color: #aaa;
 align-items: center;
 justify-content: center;
 width: 100%;
-padding: 0px 32px;
+padding: 0px 24px;
 display: flex;
 }
 
@@ -294,7 +294,7 @@ opacity: 1;
 }
 
     @media (max-width: 768px) {
-        #about { padding: 0px 16px; }
+        #about { padding: 0px 24px; }
         .about-container { flex-direction: column; }
         }
 
@@ -313,7 +313,7 @@ opacity: 1;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 64px 32px;
+    padding: 64px 24px;
     }
 
 #work-title {
@@ -361,7 +361,7 @@ background-color: #0f0;
     }
         
     #work {
-        padding: 64px 16px;
+        padding: 64px 24px;
         }
     }
 
@@ -398,7 +398,7 @@ justify-content: center;
 width: 100%;
 display: flex;
 flex-direction: column;
-padding: 32px;
+padding: 24px;
 gap: 32px;
 }
 
