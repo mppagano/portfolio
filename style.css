@@ -410,7 +410,7 @@ background-color: #0f0;
 
 
 
-#contact {
+    #contact {
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -459,10 +459,10 @@ text-decoration: underline;
 }
 
 @media (min-width: 768px) {
-
-#contact {
+    #contact {
     padding: 128px 16px;
     }
+}
 
 
 
