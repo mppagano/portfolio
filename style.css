@@ -398,13 +398,13 @@ justify-content: center;
 width: 100%;
 display: flex;
 flex-direction: column;
-padding: 32px 0px;
+padding: 0px;
 }
 
 #contact-title {
 max-width: 1234px;
 width: 100%;
-padding: 16px 16px;
+padding: 0px;
 }
 
 #contact h2 {
@@ -442,12 +442,12 @@ text-decoration: underline;
 
 @media (min-width: 768px) {
     #contact {
-    padding: 128px 0px;
+    padding: 0px;
     }
 
     #contact-title {
     width: 100%;
-    padding: 16px 0px;
+    padding: 0px;
     }
 }
 
