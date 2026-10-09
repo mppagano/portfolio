@@ -410,14 +410,15 @@ background-color: #0f0;
 
 
 
-    #contact {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 32px 32px;
-    }
+/*   C O N T A C T   */
+#contact {
+align-items: center;
+justify-content: center;
+width: 100%;
+display: flex;
+flex-direction: column;
+padding: 32px 32px;
+}
 
 #contact-title {
 max-width: 1234px;
@@ -462,15 +463,18 @@ text-decoration: underline;
     #contact {
     padding: 128px 16px;
     }
+
+    #contact-title {
+    width: 100%;
+    padding: 16px 0px;
+    }
 }
 
 
 
 
 
-
-
-/*************** IMAGE PORTFOLIO ****************/
+/*   I M A G E  P O R T F O L I O   */
 .work-full-image {
 width: 100%;
 }
@@ -480,20 +484,16 @@ width: 100%;
 
 
 
-
-
-
-
-/*  F O O T E R */
+/*   F O O T E R   */
 footer {
-    width: 100%; overflow: hidden;
-    padding-top: 128px;
-    }
+width: 100%; overflow: hidden;
+padding-top: 128px;
+}
 
 .footer-hero-text {
-    font-family: "Funnel Display", sans-serif; font-weight: 800; line-height: 0.7; font-size: 20vw; text-align: center; color: #111;
-    width: 106vw; margin-left: -3vw; letter-spacing: -0.02em; white-space: nowrap; user-select: none;
-    }
+font-family: "Funnel Display", sans-serif; font-weight: 800; line-height: 0.7; font-size: 20vw; text-align: center; color: #111;
+width: 106vw; margin-left: -3vw; letter-spacing: -0.02em; white-space: nowrap; user-select: none;
+}
 
 
 
