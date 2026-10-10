@@ -403,7 +403,7 @@ justify-content: center;
 width: 100%;
 display: flex;
 flex-direction: column;
-padding: 24px;
+padding: 128px 24px;
 gap: 32px;
 }
 
@@ -465,7 +465,7 @@ width: 100%;
 /*   F O O T E R   */
 footer {
 width: 100%; overflow: hidden;
-padding-top: 128px;
+padding-top: 24px;
 }
 
 .footer-hero-text {
