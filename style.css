@@ -374,7 +374,7 @@ background-color: #f0f0f0;
 
 .portfolio-item:hover {
 transition: opacity 0.3s ease;
-opacity: 0.9;
+opacity: 0.66;
 }
 
 .portfolio-item img {
