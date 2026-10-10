@@ -366,17 +366,22 @@ background-color: #0f0;
     }
 
 .portfolio-item {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  background-color: #f0f0f0;
+width: 100%;
+aspect-ratio: 4 / 3;
+overflow: hidden;
+background-color: #f0f0f0;
+}
+
+.portfolio-item:hover {
+transition: opacity 0.3s ease;
+opacity: 0.9;
 }
 
 .portfolio-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
 }
 
 
