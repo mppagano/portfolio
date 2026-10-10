@@ -90,7 +90,7 @@ nav {
 padding: 24px;
 color: #fff;
 justify-content: space-between; align-items: center;
-background-color: rgba(0, 0, 0, 0 /*0.66*/); backdrop-filter: blur(100px); -webkit-backdrop-filter: blur(100px);
+background-color: rgba(0, 0, 0, 0.66); backdrop-filter: blur(100px); -webkit-backdrop-filter: blur(100px);
 top: 0; left: 0; width: 100%; z-index: 1000; box-sizing: border-box; position: fixed; display: flex;
 }
 
