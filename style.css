@@ -132,8 +132,12 @@ color: #fff; text-decoration: underline;
 /*   H E R O   */
 #hero {
 align-items: center; justify-content: center; display: flex;
-width: 100%; padding: 240px 24px;
-background-color: #000;
+width: 100%;
+    padding-top: 240px
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+background-color: #111111;
 }
 
 #hero h1 {
@@ -243,7 +247,11 @@ color: #aaa;
 align-items: center;
 justify-content: center;
 width: 100%;
-padding: 0px 24px;
+    padding-top: 240px
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+background-color: #222222;
 display: flex;
 }
 
