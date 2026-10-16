@@ -136,7 +136,7 @@ width: 100%;
     padding-top: 240px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 0px;
+    padding-bottom: 24px;
 background-color: #111111;
 }
 
@@ -247,7 +247,7 @@ color: #aaa;
 align-items: center;
 justify-content: center;
 width: 100%;
-    padding-top: 240px;
+    padding-top: 160px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 0px;
